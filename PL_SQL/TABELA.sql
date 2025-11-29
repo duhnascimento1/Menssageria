@@ -24,5 +24,3 @@ ALTER TABLE msg_chamado_fila_hsm
 /
 
 
-GRANT SELECT ON msg_chamado_fila_hsm TO hsmapi;
-GRANT SELECT ON msg_chamado_fila_hsm TO leiturahsm;
