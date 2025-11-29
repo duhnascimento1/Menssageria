@@ -52,9 +52,9 @@ CREATE OR REPLACE PACKAGE BODY pkg_msg_chamado_fila_hsm AS
     END insere_chamado;
 
 
-    -------------------------------------------------------------------
-    -- USADO POR JOB (VARRE A VIEW)
-    -------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    -- USADO POR JOB (VARRE A VIEW) + ADCIONAR COLUNA NA TABELA COM CONFIRMAÇÃO DE LEITURA + ADICIONAR O FILTRO AQUI+ CRIAR RETORNO DE UPDATE NO ARQUIVO .SQL E .PY NA TABELA DE CONFIRMAÇÃO DE ENVIO.
+    --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
    PROCEDURE verifica_chamados IS
 
     CURSOR c_chamados IS
