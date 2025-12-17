@@ -6,7 +6,7 @@ A solução garante que eventos de chamados sejam enviados automaticamente ao us
 ______________________________________________________________________________________________________
 📌 Arquitetura
 
-Sistema Oracle (Trigger + PL/SQL)
+Sistema Oracle (Trigger + Package)
 → grava evento
 
 Tabela de Fila (Oracle) — HSM_FILA_NOTIFICACAO
